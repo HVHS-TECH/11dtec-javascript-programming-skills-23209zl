@@ -11,7 +11,7 @@ let userMoney = 5;
 /**************************
 Main code
 *************************/
-console.log(userMONEY);
+console.log(pocketMoney);
 
 /**************************
 Functions
