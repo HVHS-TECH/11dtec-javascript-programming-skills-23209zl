@@ -12,6 +12,7 @@ let userMoney = 5;
 Main code
 *************************/
 console.log(userMoney);
+console.log("You have ", pocketMoney, "dollars);
 
 /**************************
 Functions
