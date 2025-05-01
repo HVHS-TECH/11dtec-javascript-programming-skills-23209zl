@@ -6,13 +6,13 @@ Date: 30/04/25
 console.log("Running t02_variables.js");
 
 //Variables
-let userMoney = 0;
+let pocketMoney = 3;
 
 /**************************
 Main code
 *************************/
-console.log(userMoney);
-
+console.log(pocketMoney);
+console.log("You have", pocketMoney, "dollars);
 /**************************
 Functions
 *************************/
