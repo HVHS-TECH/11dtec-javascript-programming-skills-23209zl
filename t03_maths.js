@@ -6,7 +6,7 @@ Date: 2/05/25
 console.log("Running t03_maths.js");
 
 //Variables
-console.log("userName")
+let userName = "Jackson Li"
 /**************************
 Main code
 *************************/
