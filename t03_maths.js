@@ -6,11 +6,11 @@ Date: 2/05/25
 console.log("Running t03_maths.js");
 
 //Variables
-
+console.log("userName")
 /**************************
 Main code
 *************************/
-
+console.log("Hi" + userName)
 /**************************
 Functions
 *************************/
