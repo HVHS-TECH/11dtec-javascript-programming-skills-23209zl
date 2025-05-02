@@ -17,7 +17,8 @@ console.log(userName)
 console.log(userAge)
 console.log(currentYear)
 console.log("You have " + pocketMoney + " dollars");
-console.log("Hi" + userName)
+console.log("Hi" +
+     userName)
 /**************************
 Functions
 *************************/
