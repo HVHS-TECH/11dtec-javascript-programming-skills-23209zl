@@ -13,7 +13,7 @@ Main code
 *************************/
 console.log(pocketMoney);
 console.log("You have ",pocketMoney, " dollars");
-console.log
+console.log 
 /**************************
 Functions
 *************************/
