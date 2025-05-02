@@ -11,6 +11,7 @@ let userName = "Jackson Li"
 Main code
 *************************/
 console.log("Hi" + userName)
+
 /**************************
 Functions
 *************************/
