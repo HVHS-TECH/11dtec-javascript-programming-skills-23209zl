@@ -11,9 +11,9 @@ let pocketMoney = 3;
 /**************************
 Main code
 *************************/
-console.log(pocketMoney);
-console.log("You have ",pocketMoney, " dollars");
 console.log("Hi")
+console.log("You have ",pocketMoney, " dollars");
+
 /**************************
 Functions
 *************************/
