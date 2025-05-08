@@ -13,6 +13,7 @@ Main code
 *************************/
 prompt("Welcome to my program! \n Please enter your name");
 prompt('What is your age?');
+prompt('How much pocket money do you have?');
 
 /**************************
 Functions
