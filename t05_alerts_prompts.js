@@ -6,7 +6,7 @@ Date: 8/05/25
 console.log("Running t05_alerts_prompts.js");
 
 //Variables
-
+let userName
 
 /**************************
 Main code
