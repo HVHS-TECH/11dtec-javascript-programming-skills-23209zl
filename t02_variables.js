@@ -6,7 +6,7 @@ Date: 30/04/25
 console.log("Running t02_variables.js");
 
 //Variables
-let pocketMoney = 3;
+let pocketMoney = 10;
 let userName = "Jackson Li"
 let userAge = 15
 let currentYear = 2025
@@ -18,6 +18,7 @@ console.log(userAge)
 console.log(currentYear)
 console.log("You have " + pocketMoney + " dollars");
 console.log("Hi" + userName)
+console.log("As of" + userName + "you are" + userAge + "years old");
 /**************************
 Functions
 *************************/
