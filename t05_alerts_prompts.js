@@ -15,6 +15,7 @@ prompt('What is your name?');
 prompt('What is your age?');
 prompt('How much pocket money do you have?');
 
+
 /**************************
 Functions
 *************************/
