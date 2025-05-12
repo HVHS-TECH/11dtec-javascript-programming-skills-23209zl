@@ -12,7 +12,9 @@ let pocketMoney
 Main code
 *************************/
 pocketMoney = prompt("How much money do you have?")
-
+if (pocketMoney > 4) {
+    console.log("You have enough money to buy a chocolate bar")
+}
 /**************************
 Functions
 *************************/
