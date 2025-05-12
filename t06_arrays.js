@@ -3,7 +3,7 @@ Name of task: Alerts and prompts
 Author: Jackson
 Date: 8/05/25
 *************************/
-console.log("Running t05_alerts_prompts.js");
+console.log("Running t06_arrays.js");
 
 //arrays
 let Chocolate=["I don't like chocolate", "I like chocolate", "Chocolate is the best thing EVER"]
