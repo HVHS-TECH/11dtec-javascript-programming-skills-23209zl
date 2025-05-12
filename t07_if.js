@@ -12,9 +12,7 @@ let pocketMoney
 Main code
 *************************/
 pocketMoney = prompt("How much money do you have?")
-if (pocketMoney > 4) {
-    
-}
+
 /**************************
 Functions
 *************************/
