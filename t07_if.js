@@ -1,5 +1,5 @@
 /*************************
-Name of task: Alerts and prompts
+Name of task: Conditional statements
 Author: Jackson
 Date: 13/05/25
 *************************/

@@ -1,5 +1,5 @@
 /*************************
-Name of task: Alerts and prompts
+Name of task: Arrays
 Author: Jackson
 Date: 8/05/25
 *************************/
