@@ -11,6 +11,10 @@ let pocketMoney
 Main code
 *************************/
 pocketMoney = prompt("How much money do you have?")
+if (pocketMoney < 4){
+alert("You can't afford a bar of chocolate")
+}
+
 /**************************
 Functions
 *************************/
