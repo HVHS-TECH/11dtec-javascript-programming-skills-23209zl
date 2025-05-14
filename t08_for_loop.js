@@ -16,7 +16,7 @@ console.log("starting loop");
 for (count=0; count<10; count ++); {
     console.log("current count: " + count);
 }
-console.log("loop stoped")
+console.log("loop stoped");
 /**************************
 Functions
 *************************/
