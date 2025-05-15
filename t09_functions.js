@@ -19,3 +19,7 @@ function askUSERname () {
 askUSERname= prompt("What is your name?");
 alert("Hi " + askUSERname + "!")
 } 
+function askUSERage () {
+askUSERage= prompt("How old are you?");
+alert("You are " + askUSERage + " years old")
+} 
