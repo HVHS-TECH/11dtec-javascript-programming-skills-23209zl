@@ -6,12 +6,13 @@ Date: 15/05/25
 console.log("Running t09_functions.js");
 
 //Variables
-askUSERname();
+
 /**************************
 Main code
 *************************/
-
-
+askUSERname();
+askUSERage();
 /**************************
 Functions
+
 *************************/
