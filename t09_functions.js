@@ -26,5 +26,10 @@ alert("You are " + askUSERage + " years old")
 } 
 function askUSERmoney () {
 askUSERmoney= prompt("How much pocket money do you have?");
-alert()
+if (askUSERmoney < 4){
+alert("You can't afford a bar of chocolate")
+}
+if (askUSERmoney > 4){
+    alert("You can afford a chocolate bar")
+}
 } 
