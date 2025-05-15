@@ -15,5 +15,5 @@ askUSERage();
 /**************************
 Functions
 *************************/
-askUSERname = prompt("What is your name?")
+askUSERname = prompt("What is your name?");
 alert("Hi" + askUSERname + "!")
