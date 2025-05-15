@@ -12,6 +12,7 @@ Main code
 *************************/
 askUSERname();
 askUSERage();
+askUSERmoney ();
 /**************************
 Functions
 *************************/
@@ -22,4 +23,8 @@ alert("Hi " + askUSERname + "!")
 function askUSERage () {
 askUSERage= prompt("How old are you?");
 alert("You are " + askUSERage + " years old")
+} 
+function askUSERmoney () {
+askUSERmoney= prompt("How much pocket money do you have?");
+alert()
 } 
