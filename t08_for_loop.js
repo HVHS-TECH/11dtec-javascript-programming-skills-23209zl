@@ -18,6 +18,14 @@ for (count=0; count<10; count ++) {
 }
 console.log("loop stoped");
 
+var answer
+for (count = 0; count<=4; count ++){
+    num = prompt("Give me a number");
+    num = Number(num)
+    }
+answer = num+num+num+num+num
+alert("? " +answer);
+
 /**************************
 Functions
 *************************/
