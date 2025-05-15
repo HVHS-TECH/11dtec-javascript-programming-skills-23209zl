@@ -24,7 +24,7 @@ for (count = 0; count<=4; count ++){
     num = Number(num)
     }
 answer = num+num+num+num+num
-alert("? " +answer);
+alert(answer);
 
 /**************************
 Functions
