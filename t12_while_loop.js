@@ -20,7 +20,7 @@ function start() {
 Functions
 *************************/
 function askUSERname () {
-    while(askUSERageinvalid){
+    while(askUSERageinvalid == true){
 askUSERname= prompt("What is your name?");
 if(askUSERage == ""){
 alert("Hi " + askUSERname + "!")
