@@ -22,11 +22,12 @@ Functions
 function askUSERname () {
     while(askUSERageinvalid == true){
 askUSERname= prompt("What is your name?");
-if(askUSERage == ""){
+if(askUSERage == "" || askUSERage == " " || askUSERage == null){
+    
 alert("Hi " + askUSERname + "!")
 } else {
 askUSERageinvalid = false
-}
+}askUSERname= prompt("What is your name?");
 } 
 }
 function askUSERage () {
