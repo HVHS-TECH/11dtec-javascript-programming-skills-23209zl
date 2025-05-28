@@ -23,8 +23,6 @@ function askUSERname () {
     while(askUSERnameinvalid == true){
 askUSERname= prompt("What is your name?");
 if(askUSERname == "" || askUSERname == " " || askUSERname == null){
-    
-alert("Hi " + askUSERname + "!")
 } else {
 askUSERageinvalid = false
 }askUSERname= prompt("What is your name?");
