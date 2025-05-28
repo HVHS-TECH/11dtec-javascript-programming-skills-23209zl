@@ -31,7 +31,7 @@ alert("Error! What is your name?")
     alert("Hi " + askUSERname + "!")
 }
 function askUSERage () {
- while (askUSERageinvalid == true) {
+ whil'e (askUSERageinvalid == true) {
         askUSERage = prompt("How old are you?");
         if (askUSERage == "" || askUSERage == " " || askUSERage == null || isNaN(askUSERage)) {
          alert("Error! How old are you?")
@@ -42,7 +42,7 @@ function askUSERage () {
 alert("You are " + askUSERage + " years old")
 }
 function askUSERmoney () {
-askUSERmoney= prompt("How much pocket money do you have?");
+askUSERmoney= promp't("How much pocket money do you have?");
 if (askUSERmoney < 4){
 alert("You can't afford a bar of chocolate")
 }
