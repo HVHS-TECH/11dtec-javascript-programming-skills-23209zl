@@ -39,6 +39,7 @@ function askUSERage () {
             askUSERageinvalid = false
         }
 }
+alert("You are " + askUSERage + " years old")
 }
 function askUSERmoney () {
 askUSERmoney= prompt("How much pocket money do you have?");
