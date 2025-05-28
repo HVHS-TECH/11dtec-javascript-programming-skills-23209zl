@@ -6,7 +6,7 @@ Date: 28/05/25
 console.log("Running T12_while_loop.js");
 
 //Variables
-askUSERageinvalid = true
+askUSERnameinvalid = true
 
 /**************************
 Main code
@@ -20,9 +20,9 @@ function start() {
 Functions
 *************************/
 function askUSERname () {
-    while(askUSERageinvalid == true){
+    while(askUSERnameinvalid == true){
 askUSERname= prompt("What is your name?");
-if(askUSERage == "" || askUSERage == " " || askUSERage == null){
+if(askUSERname == "" || askUSERname == " " || askUSERname == null){
     
 alert("Hi " + askUSERname + "!")
 } else {
