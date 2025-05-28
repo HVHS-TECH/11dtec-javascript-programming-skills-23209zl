@@ -33,7 +33,9 @@ function askUSERname() {
 function askUSERage () {
 askUSERage= prompt("How old are you?");
 alert("You are " + askUSERage + " years old")
+  if (askUSERage == "" || askUSERage == " " || askUSERage == null || !isNaN(askUSERage)) {
 } 
+}
 function askUSERmoney () {
 askUSERmoney= prompt("How much pocket money do you have?");
 if (askUSERmoney < 4){
