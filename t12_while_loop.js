@@ -7,7 +7,7 @@ console.log("Running T12_while_loop.js");
 
 //Variables
 askUSERnameinvalid = true
-
+askUSERageinvalid = true
 /**************************
 Main code
 *************************/
@@ -31,10 +31,14 @@ function askUSERname() {
     alert("Hi " + askUSERname + "!")
 }
 function askUSERage () {
-askUSERage= prompt("How old are you?");
-alert("You are " + askUSERage + " years old")
-  if (askUSERage == "" || askUSERage == " " || askUSERage == null || !isNaN(askUSERage)) {
-} 
+ while (askUSERageinvalid == true) {
+        askUSERage = prompt("How old are you?");
+        if (askUSERage == "" || askUSERage == " " || askUSERage == null || isNaN(askUSERage)) {
+            askUSERage = prompt("Error. How old are you?");
+        } else {
+            askUSERageinvalid = false
+        }
+}
 }
 function askUSERmoney () {
 askUSERmoney= prompt("How much pocket money do you have?");
