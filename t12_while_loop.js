@@ -23,7 +23,7 @@ function askUSERname() {
     while (askUSERnameinvalid == true) {
         askUSERname = prompt("What is your name?");
         if (askUSERname == "" || askUSERname == " " || askUSERname == null || !isNaN(askUSERname)) {
-            askUSERname = prompt("Error. What is your name?");
+alert("Error! What is your name?")
         } else {
             askUSERnameinvalid = false
         }
@@ -34,7 +34,7 @@ function askUSERage () {
  while (askUSERageinvalid == true) {
         askUSERage = prompt("How old are you?");
         if (askUSERage == "" || askUSERage == " " || askUSERage == null || isNaN(askUSERage)) {
-            askUSERage = prompt("Error. How old are you?");
+         alert("Error! How old are you?")
         } else {
             askUSERageinvalid = false
         }
