@@ -19,15 +19,15 @@ function start() {
 /**************************
 Functions
 *************************/
-function askUSERname () {
-    while(askUSERnameinvalid == true){
-askUSERname= prompt("What is your name?");
-if(askUSERname == "" || askUSERname == " " || askUSERname == null){
-    askUSERname= prompt("What is your name?");
-} else {
-askUSERnameinvalid = false
-
-} 
+function askUSERname() {
+    while (askUSERnameinvalid == true) {
+        askUSERname = prompt("What is your name?");
+        if (askUSERname == "" || askUSERname == " " || askUSERname == null) {
+            askUSERname = prompt("Error. What is your name?");
+        } else {
+            askUSERnameinvalid = false
+        }
+    }
 }
 function askUSERage () {
 askUSERage= prompt("How old are you?");
