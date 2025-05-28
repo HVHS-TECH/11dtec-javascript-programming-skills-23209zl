@@ -22,12 +22,13 @@ Functions
 function askUSERname() {
     while (askUSERnameinvalid == true) {
         askUSERname = prompt("What is your name?");
-        if (askUSERname == "" || askUSERname == " " || askUSERname == null) {
+        if (askUSERname == "" || askUSERname == " " || askUSERname == null || !isNaN(askUSERname)) {
             askUSERname = prompt("Error. What is your name?");
         } else {
             askUSERnameinvalid = false
         }
     }
+    alert("Hi " + askUSERname + "!")
 }
 function askUSERage () {
 askUSERage= prompt("How old are you?");
