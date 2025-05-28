@@ -23,9 +23,10 @@ function askUSERname () {
     while(askUSERnameinvalid == true){
 askUSERname= prompt("What is your name?");
 if(askUSERname == "" || askUSERname == " " || askUSERname == null){
+    askUSERname= prompt("What is your name?");
 } else {
 askUSERnameinvalid = false
-}askUSERname= prompt("What is your name?");
+
 } 
 }
 function askUSERage () {
