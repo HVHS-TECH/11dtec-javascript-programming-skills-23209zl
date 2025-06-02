@@ -1,12 +1,14 @@
 /*************************
 Name of task: Validation
 Author: Jackson
-Date: 29/05/25
+Date: 03/06/25
 *************************/
-console.log("Running t13_validation.js");
+console.log("Running T13-validation.js");
 
 //Variables
-
+askUSERnameinvalid = true
+askUSERageinvalid = true
+askUSERmoneyinvalid = true
 /**************************
 Main code
 *************************/
@@ -18,20 +20,42 @@ function start() {
 /**************************
 Functions
 *************************/
-function askUSERname () {
-askUSERname= prompt("What is your name?");
-alert("Hi " + askUSERname + "!")
-} 
+function askUSERname() {
+    while (askUSERnameinvalid == true) {
+        askUSERname = prompt("What is your name?");
+        if (askUSERname == "" || askUSERname == " " || askUSERname == null || !isNaN(askUSERname)) {
+alert("Error! What is your name?")
+        } else {
+            askUSERnameinvalid = false
+        }
+    }
+    alert("Hi " + askUSERname + "!")
+}
 function askUSERage () {
-askUSERage= prompt("How old are you?");
+ while (askUSERageinvalid == true) {
+        askUSERage = prompt("How old are you?");
+        if (askUSERage == "" || askUSERage == " " || askUSERage == null || isNaN(askUSERage)) {
+         alert("Error! How old are you?")
+        } else {
+            askUSERageinvalid = false
+        }
+}
 alert("You are " + askUSERage + " years old")
-} 
+}
 function askUSERmoney () {
-askUSERmoney= prompt("How much pocket money do you have?");
-if (askUSERmoney < 4){
-alert("You can't afford a bar of chocolate")
+askUSERmoney= prompt("How much pocket money do you have from 1 to 5")
+while (askUSERmoneyinvalid == true) {
+        askUSERmoney = prompt("How much pocket money do you have from 1 to 5?");
+        if (askUSERmoney == "" || askUSERmoney == " " || askUSERmoney == null || isNaN(askUSERmoney)) {
+         alert("Error! How much pocket money do you have from 1 to 5")
+        } else {
+            askUSERmoneyinvalid = false;
+        }
 }
-if (askUSERmoney > 4){
-    alert("You can afford a chocolate bar")
+if (askUSERmoney = 1){
+    alert("You can afford a Mars Bar")
 }
-} 
+if (askUSERmoney = 2){
+    alert("You can afford a Moro Bar")
+}
+}
