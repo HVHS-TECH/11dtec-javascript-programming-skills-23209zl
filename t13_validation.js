@@ -43,7 +43,6 @@ function askUSERage () {
 alert("You are " + askUSERage + " years old")
 }
 function askUSERmoney () {
-askUSERmoney= prompt("How much pocket money do you have from 1 to 5")
 while (askUSERmoneyinvalid == true) {
         askUSERmoney = prompt("How much pocket money do you have from 1 to 5?");
         if (askUSERmoney == "" || askUSERmoney == " " || askUSERmoney == null || isNaN(askUSERmoney)) {
@@ -52,10 +51,19 @@ while (askUSERmoneyinvalid == true) {
             askUSERmoneyinvalid = false;
         }
 }
-if (askUSERmoney = 1){
+if (askUSERmoney == 1){
     alert("You can afford a Mars Bar")
 }
-if (askUSERmoney = 2){
+if (askUSERmoney == 2){
     alert("You can afford a Moro Bar")
+}
+if (askUSERmoney == 3){
+    alert("You can afford a King Size Crunchy")
+}
+if (askUSERmoney == 4){
+    alert("You can afford a Dairy Milk Block")
+}
+if (askUSERmoney == 5){
+    alert("You can afford a Lindt Block")
 }
 }
