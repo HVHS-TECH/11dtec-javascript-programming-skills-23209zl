@@ -44,8 +44,10 @@ alert("You are " + askUSERage + " years old")
 }
 
 let menu = ["Mars Bar", "Moro Bar", "King Size Crunchy", "Dairy Milk Block", "Lindt Block"];
+let menuPRICE = ["1", "2", "3", "4", "5"];
+
 let message = "Welcome to my shop, here are a list of things you can buy:"
 for (i = 0; i < menu. length; i++){
-    message = message + "\nFood " + (i + 1) + " is " + menu[i] +
+    message = message + "\nFood " + (i + 1) + " is " + menu[i] + " it is " + menuPRICE[i];
 }
 alert (message)
