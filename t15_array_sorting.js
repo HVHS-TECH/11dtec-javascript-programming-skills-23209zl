@@ -16,6 +16,7 @@ function start() {
     askUSERname();
     askUSERage();
     askUSERmoney ();
+    alert (message);
 }
 /**************************
 Functions
@@ -50,4 +51,3 @@ let message = "Welcome to my shop, here are a list of things you can buy:"
 for (i = 0; i < menu. length; i++){
     message = message + "\nFood " + (i + 1) + " is " + menu[i] + " it is " + menuPRICE[i];
 }
-alert (message)
