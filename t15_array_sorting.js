@@ -42,15 +42,6 @@ function askUSERage () {
 }
 alert("You are " + askUSERage + " years old")
 }
-function askUSERmoney () {
-while (askUSERmoneyinvalid == true) {
-        askUSERmoney = prompt("How much pocket money do you have from 1 to 5?");
-        if (askUSERmoney == "" || askUSERmoney == " " || askUSERmoney == null || isNaN(askUSERmoney)) {
-         alert("Error! How much pocket money do you have from 1 to 5")
-        } else {
-            askUSERmoneyinvalid = false;
-        }
-}
-}
+
 let menu = ["Mars Bar", "Moro Bar", "King Size Crunchy", "Dairy Milk Block", "Lindt Block"];
-let message = "Welcome to my shop"
+let message = "Welcome to my shop, here is a list of things you can buy"
