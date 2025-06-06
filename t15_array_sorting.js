@@ -47,7 +47,10 @@ alert("You are " + askUSERage + " years old")
 function askUSERmoney () {
 while (askUSERmoneyinvalid == true) {
         askUSERmoney = prompt("How much pocket money do you have from 1 to 5?");
-        if (askUSERmoney == "" || askUSERmoney == " " || askUSERmoney == null || isNaN(askUSERmoney)) {
+        if ( askUSERmoney == null) {
+            return;
+        }
+        if (askUSERmoney == "" || askUSERmoney == " " || isNaN(askUSERmoney)) {
          alert("Error! How much pocket money do you have from 1 to 5")
         } else {
             askUSERmoneyinvalid = false;
